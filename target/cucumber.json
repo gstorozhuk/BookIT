@@ -1,0 +1,95 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T03:44:16.742Z",
+        "line": 5,
+        "name": "As a user,  student are able to login with valid credentials US1",
+        "description": "",
+        "id": "as-a-user--student-should-be-able-to-log-in-successfully-with-valid-credentials;as-a-user---student-are-able-to-login-with-valid-credentials-us1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5160000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has landed on a login page",
+            "match": {
+              "location": "com.cybertek.bookIT.step_definitions.US1_Login_Step_Definitions.user_has_landed_on_a_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3256000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "given user enter valid \"login\" and valid \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.cybertek.bookIT.step_definitions.US1_Login_Step_Definitions.given_user_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user on a Home page",
+            "match": {
+              "location": "com.cybertek.bookIT.step_definitions.US1_Login_Step_Definitions.the_user_on_a_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, student should be able to log in successfully with valid credentials",
+    "description": "",
+    "id": "as-a-user--student-should-be-able-to-log-in-successfully-with-valid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1_Login_Function.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
