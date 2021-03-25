@@ -40,7 +40,6 @@ public class US1_Login_Step_Definitions {
     public void the_user_on_a_home_page() {
 
         String actualTitle = Driver.get().getTitle();
-
         String expectedTitle = "bookit";
         Assert.assertTrue(actualTitle.contains(expectedTitle));
 

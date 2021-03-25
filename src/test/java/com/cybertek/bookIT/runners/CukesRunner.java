@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cybertek/bookIT/step_definitions",
         dryRun = false,
-        tags = "@regression or @smoke"
+        tags = "@galyna or @smoke"
 
 )
 public class CukesRunner {
