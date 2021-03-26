@@ -18,6 +18,7 @@ public class HomePage extends BasePage{
     public WebElement loginButton;
 
 
+
     public void homePageLanding(){
       Driver.get().get(ConfigurationReader.getProperty("URL"));
         String expectedTab = "bookit";

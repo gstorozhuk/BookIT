@@ -1,10 +1,13 @@
 package com.cybertek.bookIT.step_definitions;
 
 import com.cybertek.bookIT.utilities.Driver;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.junit.After;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import java.util.concurrent.TimeUnit;
 
 public class Hooks {
     @After

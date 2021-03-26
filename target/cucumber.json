@@ -3,17 +3,17 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-03-26T00:18:45.157Z",
+        "start_timestamp": "2021-03-26T18:39:35.911Z",
         "line": 5,
-        "name": "As a user,  student are able to login with valid credentials US1",
+        "name": "As a user,  student is able to login with valid credentials US1",
         "description": "",
-        "id": "as-a-user--student-should-be-able-to-log-in-successfully-with-valid-credentials;as-a-user---student-are-able-to-login-with-valid-credentials-us1",
+        "id": "as-a-user--student-should-be-able-to-log-in-successfully-with-valid-credentials;as-a-user---student-is-able-to-login-with-valid-credentials-us1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7159000000,
+              "duration": 6332000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3294000000,
+              "duration": 3492000000,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 8,
