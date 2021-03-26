@@ -19,9 +19,9 @@ public class DB_Utilities {
      */
     public static void createConnection(){
 
-        String url      = ConfigurationReader.getProperty("hr.database.url") ;
-        String username = ConfigurationReader.getProperty("hr.database.username") ;
-        String password = ConfigurationReader.getProperty("hr.database.password") ;
+        String url      = ConfigurationReader.getProperty("bookit.database.url") ;
+        String username = ConfigurationReader.getProperty("bookit.database.username") ;
+        String password = ConfigurationReader.getProperty("bookit.database.password") ;
 //        try {
 //            con = DriverManager.getConnection(url , username, password) ;
 //            System.out.println("CONNECTION SUCCESSFUL");
