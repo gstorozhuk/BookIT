@@ -4,8 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MapPage extends BasePage {
-    @FindBy (css = ".room-info-icon")
+    @FindBy (xpath = "//img[@src='assets/images/six.svg']")
     public WebElement capacityImage;
-    @FindBy(xpath = "//*[@id=\"room-121\"]/span")
+    @FindBy(css = "span[class='room-name has-text-centered']")
     public WebElement kilimanjaro;
 }
