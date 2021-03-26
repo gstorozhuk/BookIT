@@ -30,8 +30,10 @@ public class Verify_TV_in_Room {
        System.out.println(KilimanjaroHasTV);
 
        DB_Utilities.createConnection();
+       System.out.println("123");
+       // best luck
 
-       DB_Utilities.runQuery("SELECT withtv FROM room WHERE name='kilimanjaro'").toString();
+      // DB_Utilities.runQuery("SELECT withtv FROM room WHERE name='kilimanjaro'").toString();
      //  String bookCountDB_Str=DB_Utilities.getFirstCellData();
 
    }
