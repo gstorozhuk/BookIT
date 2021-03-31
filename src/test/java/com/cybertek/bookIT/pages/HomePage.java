@@ -55,5 +55,6 @@ public class HomePage extends BasePage {
 
         loginButton.click(); // to continue the loop
 //adding file to commit
+        //try #2
     }
 }
