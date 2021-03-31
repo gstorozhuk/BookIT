@@ -54,6 +54,6 @@ public class HomePage extends BasePage {
         utils.clickWithJS(signOutButton);
 
         loginButton.click(); // to continue the loop
-
+//adding file to commit
     }
 }
