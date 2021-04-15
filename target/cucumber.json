@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-03-26T00:18:45.157Z",
+        "start_timestamp": "2021-04-09T17:42:40.483Z",
         "line": 5,
         "name": "As a user,  student are able to login with valid credentials US1",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7159000000,
+              "duration": 8867000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3294000000,
+              "duration": 3345000000,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 8,

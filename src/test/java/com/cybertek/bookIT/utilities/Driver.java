@@ -73,7 +73,7 @@ public class Driver {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.setCapability("platform", Platform.ANY);
                     try {
-                        driverThreadLocal.set(new RemoteWebDriver(new URL("http://3.235.179.180:4444/wd/hub"), chromeOptions));
+                        driverThreadLocal.set(new RemoteWebDriver(new URL("http://192.168.1.83:4444/wd/hub"), chromeOptions));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
